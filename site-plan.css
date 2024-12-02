@@ -18,18 +18,18 @@ Fonts are separated by a | */
 --paragraph-font: "VT323", monospace;
 
 /* Headline Colors */
---headline-color-on-white: #272f6f; /* headlines on a white background - matches primary color */
---headline-color-on-color: white; /* headlines on a colored background */
+--headline-color-on-white: black; /* headlines on a white background - matches primary color */
+--headline-color-on-color: #0000FF; /* headlines on a colored background */
 
 /* Updated Colors */
---paragraph-color-on-white: #272f6f; /* paragraph text on a white background - matches primary color */
---paragraph-color-on-color: #f6e5c4; /* paragraph text on a colored background - matches secondary color */
---paragraph-background-color: #e6cf98; /* background for paragraph sections - matches accent2 color */
+--paragraph-color-on-white: #0000FF; /* paragraph text on a white background - matches primary color */
+--paragraph-color-on-color: black; /* paragraph text on a colored background - matches secondary color */
+--paragraph-background-color: #FF8000; /* background for paragraph sections - matches accent2 color */
 
---nav-link-color: #A42212; /* matches accent1 color */
---nav-background-color: #f6e5c4; /* matches secondary color */
---nav-hover-link-color: white; /* hover link color - stands out on accent1 background */
---nav-hover-background-color: #A42212; /* hover background color - matches accent1 color */
+--nav-link-color: #FF8000; /* matches accent1 color */
+--nav-background-color: #000000; /* matches secondary color */
+--nav-hover-link-color: #00D515; /* hover link color - stands out on accent1 background */
+--nav-hover-background-color: #000000; /* hover background color - matches accent1 color */
 }
 
 
@@ -98,6 +98,9 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+.accent3 {
+  background-color: var(--accent3-color);
 }
 
 p.colored {
