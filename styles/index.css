@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Creepster&family=Holtwood+One+SC&family=Oswald:wght@200..700&family=Press+Start+2P&family=Prosto+One&family=Rubik+Wet+Paint&display=swap');
+:root {
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Creepster&family=Holtwood+One+SC&family=Oswald:wght@200..700&family=Press+Start+2P&family=Prosto+One&family=Rubik+Wet+Paint&family=VT323&display=swap');
+  
+  /* change the values below to your colors from your palette */
+  --primary-color: #000000   ;
+  --secondary-color: #0000FF ;
+  --accent1-color: #00D515;
+  --accent2-color: #FF8000;
+  --accent3-color: #FFEE00;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Press Start 2P", system-ui;
+--paragraph-font: "VT323", monospace;
+
+/* Headline Colors */
+--headline-color-on-white: black; /* headlines on a white background - matches primary color */
+--headline-color-on-color: #0000FF; /* headlines on a colored background */
+
+/* Updated Colors */
+--paragraph-color-on-white: #0000FF; /* paragraph text on a white background - matches primary color */
+--paragraph-color-on-color: black; /* paragraph text on a colored background - matches secondary color */
+--paragraph-background-color: #FF8000; /* background for paragraph sections - matches accent2 color */
+
+--nav-link-color: #FF8000; /* matches accent1 color */
+--nav-background-color: #000000; /* matches secondary color */
+--nav-hover-link-color: #00D515; /* hover link color - stands out on accent1 background */
+--nav-hover-background-color: #000000; /* hover background color - matches accent1 color */
+}
+
 
 .topnav {
-background-color: #333;
+background-color: #000000;
 overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
 float: left;
-color: #f2f2f2;
+color: #ff8000;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -16,12 +47,28 @@ font-size: 17px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-background-color: #ddd;
-color: black;
+background-color: black;
+color: #00D515;
 }
 
 /* Add a color to the active/current link */
 .active {
-background-color: #04AA6D;
-color: white;
+/* background-color: #04AA6D; */
+color: #00D515;
+}
+
+#hero {
+width: 100%;
+}
+
+p{
+font-family: var(--paragraph-font);
+}
+
+/* #paragraph1{
+    margin
+} */
+
+#main_grid p{
+font-family: var(--paragraph-font);
 }
