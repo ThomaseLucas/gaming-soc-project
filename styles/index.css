@@ -57,7 +57,7 @@ color: #00D515;
 /* Add a color to the active/current link */
 .active {
 background-color: var(--accent1-color);
-color: #00D515;
+color: white;
 }
 
 #hero {
@@ -123,4 +123,32 @@ margin-bottom: 25px;
     grid-row: 2 / 3;
     background-color: var(--accent1-color);
     text-align: center;
+}
+
+.paragraph4{
+margin-top: 50px;
+margin-right: 20%;
+margin-left: 20%;
+margin-bottom: 50px;
+}
+
+footer {
+background-color: black;
+overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+footer a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+footer a:hover {
+background-color: black;
+color: #00D515;
 }
