@@ -77,7 +77,22 @@ margin-left: 20%;
 margin-bottom: 100px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("game_hero_image.png");
+  
+    /* Set a specific height */
+    min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .main_grid {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -133,6 +148,20 @@ margin-left: 20%;
 margin-bottom: 50px;
 }
 
+.parallax2 {
+    /* The image used */
+    background-image: url("computer-and-stuff.png");
+  
+    /* Set a specific height */
+    min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 footer {
 background-color: black;
 overflow: hidden;
@@ -148,8 +177,28 @@ text-decoration: none;
 font-size: 17px;
 }
 
+.social {
+display: flex;
+justify-content: center;
+}
+
+.social a {
+padding-left: 50px;
+padding-right: 50px;
+}
+
 /* Change the color of links on hover */
 footer a:hover {
 background-color: black;
 color: #00D515;
+}
+
+/* page 2 ============== */
+
+.about_us{
+    text-align: center;
+}
+
+.contact_us{
+    text-align: center;
 }
