@@ -66,14 +66,15 @@ width: 100%;
 
 p{
 font-family: var(--paragraph-font);
+font-size: 30px;
 color: white;
 }
 
 .paragraph1{
-margin-top: 25px;
+margin-top: 100px;
 margin-right: 20%;
 margin-left: 20%;
-margin-bottom: 25px;
+margin-bottom: 100px;
 }
 
 .main_grid {
@@ -126,7 +127,7 @@ margin-bottom: 25px;
 }
 
 .paragraph4{
-margin-top: 50px;
+margin-top: 150px;
 margin-right: 20%;
 margin-left: 20%;
 margin-bottom: 50px;
